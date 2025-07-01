@@ -367,6 +367,16 @@
                 "lg": "assets/images/single-portfolio/L1.jpeg",
                 "md": "assets/images/single-portfolio/L1.jpeg"
             }
+        },
+        "bicilab": {
+            "href": "BiciLabMostrador.html",
+            "title": "BiciLab Mostrador",
+            "category": ["Tematización", "#"],
+            "logo": "",
+            "image": {
+                "lg": "assets/images/single-portfolio/bicilab1.jpeg",
+                "md": "assets/images/single-portfolio/bicilab2.jpeg"
+            }
         }
     },
     "single_portfolio_images": { 
@@ -441,6 +451,14 @@
             "07": ["assets/images/single-portfolio/ferrariland6.jpeg", "assets/images/single-portfolio/ferrariland6.jpeg"],
             "08": ["assets/images/single-portfolio/ferrariland7.jpeg", "assets/images/single-portfolio/ferrariland7.jpeg"],
             "09": ["assets/images/single-portfolio/ferrariland8.jpeg", "assets/images/single-portfolio/ferrariland8.jpeg"]
+        },
+         "style_5_9": {
+            "banner": "assets/images/portfolio/bicilab1.jpeg",
+            "02": ["assets/images/single-portfolio/bicilab1.jpeg", "assets/images/single-portfolio/bicilab1.jpeg"],
+            "03": ["assets/images/single-portfolio/bicilab2.jpeg", "assets/images/single-portfolio/bicilab2.jpeg"],
+            "04": ["assets/images/single-portfolio/bicilab3.jpeg", "assets/images/single-portfolio/bicilab3.jpeg"],
+            "05": ["assets/images/single-portfolio/bicilab4.jpeg", "assets/images/single-portfolio/bicilab4.jpeg"],
+            "06": ["assets/images/single-portfolio/bicilab5.jpeg", "assets/images/single-portfolio/ferrariland5.jpeg"]
         }
         
     },
