@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+{{ headerComment | safe }}
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Descubre LINE-X Hispania (LXH), expertos en recubrimientos duraderos y tematización de proyectos. Innovación, calidad y más de 10 años de experiencia en soluciones personalizadas para empresas.">
+    <meta name="author" content="LINE-X Hispania - LXH">
+    <meta name="keywords" content="LINE-X Hispania, LXH, recubrimientos, tematización, proyectos empresariales, recubrimientos duraderos, innovación, soluciones personalizadas">
+    <!--Compatibilidad con todo -->
+    <meta property="og:title" content="LXH - Expertos en Proyectos Temáticos">
+    <meta property="og:description" content="Damos vida a tus ideas con proyectos de tematización únicos y personalizados. Con años de experiencia.">
+    <meta property="og:image" content="https://lxh.es/assets/images/LXH.jpg">
+    <meta property="og:url" content="https://lxh.es/">
+    <meta property="og:type" content="website">
+
+    <!-- Compatibilidad con Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="LXH - Expertos en Proyectos Temáticos">
+    <meta name="twitter:description" content="Damos vida a tus ideas con proyectos de tematización únicos y personalizados. Con años de experiencia, somos líderes en el sector.">
+    <meta name="twitter:image" content="https://lxh.es/imagen_proyecto_tematico.jpg">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>{% if page_title %}{{page_title }}{% elif header_title %}{{ ' | ' + header_title }}{% endif %}</title>
+
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- START: Styles -->
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="assets/vendor/swiper/dist/css/swiper.min.css" />
+
+    <!-- Fancybox -->
+    <link rel="stylesheet" href="assets/vendor/fancybox/dist/jquery.fancybox.min.css" />
+
+    <!-- Themebau -->
+    <link rel="stylesheet" href="assets/css/{{ template_name }}.min.css">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+    {% if custom_css %}<link rel="stylesheet" href="{{ custom_css }}">{% endif %}
+    <!-- END: Styles -->
+
+    <!-- jQuery -->
+    <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
+    {% block head %}{% endblock %}
+
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C4WX3FRZPZ"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-C4WX3FRZPZ');
+</script>

@@ -1,0 +1,20 @@
+.btn {
+    border-radius: 30px;
+}
+
+.img{
+    border-radius: 30px;
+}
+.card-img img{
+    border-radius: 30px;
+
+}
+.card.card-image-lg .card-img, .card.card-image-md .card-img, .card.card-image-sm .card-img, .card.card-image-xl .card-img{
+    border-radius: 30px;
+}
+.w-100 {
+    border-radius: 15px;
+}
+.gallery-item img {
+    border-radius: 30px;
+}
